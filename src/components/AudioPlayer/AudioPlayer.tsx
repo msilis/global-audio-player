@@ -6,12 +6,12 @@ export const AudioPlayer = () => {
   const { stationDetail } = useContext(StationContext);
 
   return (
-    <div className={style.audioPlayerContainer}>
+    <div className={style.audioPlayer}>
       <audio
         controls
         src={stationDetail && stationDetail.streamUrl}
         role="audio"
-      ></audio>
+      />
     </div>
   );
 };
