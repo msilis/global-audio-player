@@ -7,7 +7,11 @@ export const AudioPlayer = () => {
 
   return (
     <div className={style.audioPlayerContainer}>
-      <audio controls src={stationDetail && stationDetail.streamUrl}></audio>
+      <audio
+        controls
+        src={stationDetail && stationDetail.streamUrl}
+        role="audio"
+      ></audio>
     </div>
   );
 };
