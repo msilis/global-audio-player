@@ -32,6 +32,7 @@ export const StationContainer = () => {
         options={stationOptions}
         placeholder={"Choose a station..."}
         onChange={handleStationChange}
+        className={style.reactSelect}
       />
     </div>
   );
