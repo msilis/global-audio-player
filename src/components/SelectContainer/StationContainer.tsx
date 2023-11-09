@@ -19,7 +19,6 @@ export const StationContainer = () => {
 
   const handleStationChange = async (newValue: OptionType | null) => {
     if (newValue) {
-      console.log(newValue.slug);
       setStationDetail(await getStationDetails(newValue.slug));
     }
   };
