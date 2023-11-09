@@ -3,6 +3,8 @@
   flex-direction: column;
   min-height: 20rem;
   background: linear-gradient(-140deg, #19e4ff, #006efa 40%, #1e54ef);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid #006efa;
   width: 28rem;
   padding: 2rem;
   align-items: center;
