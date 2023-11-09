@@ -1,0 +1,24 @@
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 20rem;
+  background: linear-gradient(-140deg, #19e4ff, #006efa 40%, #1e54ef);
+  width: 28rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#globalLogoLarge {
+  width: 20rem;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .selectContainer {
+    width: 80%;
+    padding: 1rem;
+  }
+}

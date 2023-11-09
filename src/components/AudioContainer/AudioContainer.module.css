@@ -2,7 +2,8 @@
   display: flex;
   gap: 2rem;
   border: 2px solid #006efa;
-  border-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   align-items: center;
   padding: 2rem;
   width: 28rem;
@@ -15,4 +16,29 @@
   width: 5rem;
   background-color: lightgray;
   border-radius: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .audioContainer {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #smallLogo {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .audioContainer {
+    flex-direction: column;
+    width: 80%;
+    padding: 1rem;
+    overflow: hidden;
+  }
+
+  #smallLogo {
+    margin-bottom: 1rem;
+  }
 }

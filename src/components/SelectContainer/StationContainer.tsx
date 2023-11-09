@@ -4,6 +4,7 @@ import { StationContext } from "../../utils/stationContext";
 import { useContext } from "react";
 import { UI_TEXT } from "../../utils/uiText";
 import { getStationDetails } from "../../utils/getStationDetails";
+import globalLogo from "../../assets/global-generic.jpg";
 
 export const StationContainer = () => {
   const { stationList } = useContext(StationContext);
@@ -25,6 +26,7 @@ export const StationContainer = () => {
 
   return (
     <div className={style.selectContainer}>
+      <img src={globalLogo} alt="globalLogo" id={style.globalLogoLarge} />
       <h4>{UI_TEXT.headerText}</h4>
       <Select
         options={stationOptions}
