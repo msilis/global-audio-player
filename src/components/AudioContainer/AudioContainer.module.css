@@ -3,6 +3,7 @@
   gap: 2rem;
   border: 2px solid #006efa;
   border-radius: 10px;
+  align-items: center;
   padding: 2rem;
   width: 28rem;
   background: linear-gradient(-140deg, #19e4ff, #006efa 40%, #1e54ef);
@@ -10,6 +11,8 @@
 }
 
 #smallLogo {
-  height: 4rem;
-  width: auto;
+  height: 5rem;
+  width: 5rem;
+  background-color: lightgray;
+  border-radius: 100%;
 }
