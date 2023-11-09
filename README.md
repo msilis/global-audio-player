@@ -1,4 +1,4 @@
-# Project Name
+# Global Audio Player
 
 Audio player for Global radio stations
 
