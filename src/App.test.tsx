@@ -6,6 +6,9 @@ import "@testing-library/jest-dom";
 import App from "./App";
 import fetchMock from "fetch-mock";
 
+const mockedGetAllStations = getAllStations as jest.MockedFunction<
+  typeof getAllStations
+>;
 vi.mock("./utils/getAllStations");
 
 describe("App", () => {
@@ -22,7 +25,7 @@ describe("App", () => {
       { id: "1", name: "Station 1" },
       { id: "2", name: "Station 2" },
     ];
-    (getAllStations as jest.Mock).mockResolvedValue(mockData);
+    mockedGetAllStations.mockResolvedValue(mockData);
 
     await act(async () => {
       render(<App />);
