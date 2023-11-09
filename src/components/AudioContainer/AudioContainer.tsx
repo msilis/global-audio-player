@@ -7,7 +7,7 @@ import { useContext } from "react";
 export const AudioContainer = () => {
   const { stationDetail } = useContext(StationContext);
   return (
-    <div className={style.audioContainer}>
+    <div className={style.audioContainer} data-testid="audio-container">
       <div className={style.logoContainer}></div>
       <img
         src={stationDetail?.logo ? stationDetail.logo : smallLogo}

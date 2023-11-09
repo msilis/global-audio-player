@@ -25,7 +25,7 @@ export const StationContainer = () => {
   };
 
   return (
-    <div className={style.selectContainer}>
+    <div className={style.stationContainer} data-testid="station-container">
       <img src={globalLogo} alt="globalLogo" id={style.globalLogoLarge} />
       <h4>{UI_TEXT.headerText}</h4>
       <Select
