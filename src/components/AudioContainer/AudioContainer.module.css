@@ -4,7 +4,12 @@
   border: 2px solid #006efa;
   border-radius: 10px;
   padding: 2rem;
-  width: 20rem;
+  width: 28rem;
   background: linear-gradient(-140deg, #19e4ff, #006efa 40%, #1e54ef);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#smallLogo {
+  height: 4rem;
+  width: auto;
 }
